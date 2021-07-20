@@ -5,9 +5,10 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <Section nopadding id='projects'>
+  <Section id='projects'>
     <SectionDivider />
-    <SectionTitle main>Projects </SectionTitle>
+    <SectionTitle main >Projects</SectionTitle>
+    <SectionText>Here are few of the projects I have been involved with.</SectionText>
     <GridContainer>
       {projects.map(({ id, title, image, description, tags, source, visit }) => (
         <BlogCard key={id}>
