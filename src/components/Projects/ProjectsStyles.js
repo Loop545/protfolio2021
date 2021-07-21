@@ -23,7 +23,7 @@ row-gap: 3rem;
 
 `
 export const BlogCard = styled.div`
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
@@ -92,7 +92,7 @@ export const ExternalLinks = styled.a`
 color:#d4c0c0;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: linear-gradient(270deg, #0063B2FF 0%, #9CC3D5FF 100%);
 border-radius: 15px;
 transition: 0.5s;
 &:hover{

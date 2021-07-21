@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Protfolio Website',
+    description: "This Website uses React, Node.js and different packages along with wordpress as backend to handle the forms. This is the very first live website I made.",
+      image: '/images/firstwebsite.png',
+      tags: ['Wordpress', 'Express', 'React', 'Node'],
+    source: 'https://github.com/Loop545/protfolio2020/tree/develop',
+    visit: 'https://pranabamatya.com',
     id: 0,
   },
   {
