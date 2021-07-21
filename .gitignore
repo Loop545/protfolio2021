@@ -44,6 +44,5 @@ dist
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
-.next/cache/webpack
 
 

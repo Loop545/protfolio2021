@@ -10,8 +10,8 @@ export const projects = [
   },
   {
     title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
+    description:"Just a basic front end website with a business landing page.",
+    image: '/images/second.png',
     tags: ['React', 'JavaScript'],
     source: 'https://google.com',
     visit: 'https://google.com',
@@ -39,8 +39,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2018, text: 'Commenced my studies in B.Information Technology',},
+  { year: 2019, text: 'Landed first job as a juinor front-end', },
+  { year: 2020, text: 'First webiste published', },
+  { year: 2021, text: 'Still learning via different sources', },
 ];

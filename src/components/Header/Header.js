@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCloud9 } from 'react-icons/di';
+import { DiCodeBadge } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, Span, NavLink, SocialIcons } from './HeaderStyles';
 
@@ -10,7 +10,7 @@ const Header = () => (
     <Div1>
       <Link href='/'>
         <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px' }}>
-          <DiCloud9 size='3rem' /> <Span>Pranab</Span>
+          <DiCodeBadge size='3rem' /> <Span>Protfolio</Span>
         </a>
       </Link>
     </Div1>
@@ -32,13 +32,13 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com'>
+      <SocialIcons href='https://github.com/Loop545'>
         <AiFillGithub size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://linkedin.com'>
+      <SocialIcons href='https://www.linkedin.com/in/pranab-raj-amatya-6615901a2/'>
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://instagram.com'>
+      <SocialIcons href='https://www.instagram.com/pranab.raj_/'>
         <AiFillInstagram size='3rem' />
       </SocialIcons>
     </Div3>

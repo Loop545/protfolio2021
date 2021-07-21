@@ -12,9 +12,11 @@ const Hero = (props) => (
         Pranab Raj Amatya.
       </SectionTitle>
       <SectionText>
-        The purpose of Javascript Mastery is to help..........
+        A Front-End developer in making. Started the journey back in 2020, since the day has never settled.
+        Welcome to one of my projects where I showcase my skills. <br/>
+        Cheers!
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location = 'https://www.linkedin.com/in/pranab-raj-amatya-6615901a2/'}>Learn More</Button>
     </LeftSection>
   </Section>
 );
