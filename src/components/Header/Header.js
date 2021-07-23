@@ -3,7 +3,9 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCodeBadge } from 'react-icons/di';
 
+
 import { Container, Div1, Div2, Div3, Span, NavLink, SocialIcons } from './HeaderStyles';
+
 
 const Header = () => (
   <Container>

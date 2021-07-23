@@ -23,12 +23,13 @@ row-gap: 3rem;
 
 `
 export const BlogCard = styled.div`
-  border-radius: 20px;
+  border-radius: 40px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    margin-bottom: 20px;
   }
 `;
 export const TitleContent = styled.div`
@@ -52,7 +53,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: #66FCF1;
 `;
 
 export const Intro = styled.div`
@@ -68,14 +69,16 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  height: 150px;
+  padding: 0px 50px 20px;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
+  overflow: scroll;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
-  
+    padding:2rem
+    text-align: justify; 
 }
 `;
 
@@ -85,19 +88,20 @@ export const UtilityList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: space-around;
-  margin: 2.5rem 0;
+  margin-bottom: 2rem;
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color: white;
+text-transform: capitalize;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: linear-gradient(270deg, #0063B2FF 0%, #9CC3D5FF 100%);
+background: linear-gradient(250deg, #0063B2FF 0%, #45A29E 100%);
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
-
+  background: #1F2833;
+  border: 1px solid #66FCF1;
 }
 `;
 
