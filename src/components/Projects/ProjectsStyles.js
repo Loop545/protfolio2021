@@ -99,6 +99,7 @@ padding:1rem 1.5rem;
 background: linear-gradient(250deg, #0063B2FF 0%, #45A29E 100%);
 border-radius: 15px;
 transition: 0.5s;
+margin-bottom: 1rem;
 &:hover{
   background: #1F2833;
   border: 1px solid #66FCF1;
