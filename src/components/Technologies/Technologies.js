@@ -9,7 +9,7 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have been envolved in Front end development for an about year.
+      I have been involved in Front end development for an about a year. Along with that as part of web development, I have improved my skills in Full Stack.
     </SectionText>
     <List>
       <ListItem>
@@ -18,7 +18,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Exprienced with <br />
-            React.js
+            React.js and Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
