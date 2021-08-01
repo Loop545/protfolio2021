@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Blog Website',
     description: "This is a code repository for the corresponding blog website. This project uses Rest API and makes axios get request to make the post request via Wordpress",
-    image: '/images/blog.jpg',
+    image: '/images/blog.png',
     tags: ['React', 'Wordpress', 'Rest API'],
     source: 'https://github.com/Loop545/pb/tree/master',
     visit: 'https://pbghetto.com',
