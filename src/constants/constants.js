@@ -26,15 +26,15 @@ export const projects = [
     visit: 'https://angry-goldstine-d8cf5c.netlify.app/?fbclid=IwAR3EWj2xAcH3xbzRxUUnOMNwVC54MHYfmDrPoV_axC0g5VJQm6Cinr-7rpo',
     id: 2,
   },
-  // {
-  //   title: 'Unichat',
-  //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-  //   image: '/images/4.jpg',
-  //   tags: ['React', 'ChatEngine', 'Firebase'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 3,
-  // },
+  {
+    title: 'Blog Website',
+    description: "This is a code repository for the corresponding blog website. This project uses Rest API and makes axios get request to make the post request via Wordpress",
+    image: '/images/blog.jpg',
+    tags: ['React', 'Wordpress', 'Rest API'],
+    source: 'https://github.com/Loop545/pb/tree/master',
+    visit: 'https://pbghetto.com',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
